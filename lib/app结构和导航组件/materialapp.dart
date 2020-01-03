@@ -20,6 +20,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: MyAppHomePage(),
       title: 'MaterialApp示例',
+      theme: ThemeData(
+        primarySwatch: Colors.red
+      ),
     );
   }
 }
